@@ -5,3 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/halo', function () {
     return 'Halo, Laravel 13!!';
 });
+
+Route::get('/tentang', function () {
+    return view('tentang');
+});
